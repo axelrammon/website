@@ -11,6 +11,7 @@ function App() {
   let [ mostrarArtigos, setMostrarArtigos ] = useState({ display: 'none' });
   let [ mostrarHabilidades, setMostrarHabilidades ] = useState({ display: 'none' });
   let [ projects, setProjects ] = useState({ display: 'block' });
+  const medium = 'https://medium.com/@Axel7/como-colocar-seu-app-em-reactjs-no-github-pages-b1cd94f1230';
 
   useEffect(() => {
     async function pegarRepos() {
@@ -109,7 +110,7 @@ function App() {
                   <button onClick={handleSubmitRepositorios}>Voltar</button>
                 </div>
                 <div className="artigos" style={mostrarArtigos}>
-                  <a href="#" rel="noopener noreferrer">Medium</a>
+                  <a href={medium} rel="noopener noreferrer">Medium</a>
                   <button onClick={handleSubmitArtigo}>Voltar</button>
                 </div>
                 <div className="habilidades" style={mostrarHabilidades}>
