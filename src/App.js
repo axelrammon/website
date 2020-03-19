@@ -110,11 +110,11 @@ function App() {
                   <button onClick={handleSubmitRepositorios}>Voltar</button>
                 </div>
                 <div className="artigos" style={mostrarArtigos}>
-                  <a href={medium} rel="noopener noreferrer">Medium</a>
+                  <a href={medium} rel="noopener noreferrer">Como hospedar seu ReactJS App no Github Pages</a><br/>
                   <button onClick={handleSubmitArtigo}>Voltar</button>
                 </div>
                 <div className="habilidades" style={mostrarHabilidades}>
-                  aibdofbdaofbadofib
+                  <p>Em breve</p>
                   <button onClick={handleSubmitHabilidade}>Voltar</button>
                 </div>
               </div>
@@ -131,7 +131,7 @@ function App() {
                 <SocialIcon 
                   network="github"
                   url="https://github.com/axelrammon"
-                  bgColor="#616161"
+                  bgColor="#ecf0f1"
                 />
               </li>
             </div>
@@ -140,7 +140,7 @@ function App() {
                 <SocialIcon 
                   network="twitter"
                   url="https://twitter.com/axel_rammon"
-                  bgColor="#00acee"
+                  bgColor="#ecf0f1"
                 />
               </li>
             </div>
@@ -149,7 +149,7 @@ function App() {
                 <SocialIcon 
                   network="linkedin"
                   url="https://www.linkedin.com/in/axel-rammon-536ab6119/"
-                  bgColor="#0e76a8"
+                  bgColor="#ecf0f1"
                 />
               </li>
             </div>
@@ -158,7 +158,7 @@ function App() {
                 <SocialIcon 
                   network="instagram"
                   url="https://instagram.com/axel_rammon"
-                  bgColor="#cc2366"
+                  bgColor="#ecf0f1"
                 />
               </li>
             </div>
