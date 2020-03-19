@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/artigo-github-pages/static/css/main.d9403351.chunk.css",
+    "main.js": "/artigo-github-pages/static/js/main.13da866e.chunk.js",
+    "main.js.map": "/artigo-github-pages/static/js/main.13da866e.chunk.js.map",
+    "runtime-main.js": "/artigo-github-pages/static/js/runtime-main.d2b00356.js",
+    "runtime-main.js.map": "/artigo-github-pages/static/js/runtime-main.d2b00356.js.map",
+    "static/js/2.922f5058.chunk.js": "/artigo-github-pages/static/js/2.922f5058.chunk.js",
+    "static/js/2.922f5058.chunk.js.map": "/artigo-github-pages/static/js/2.922f5058.chunk.js.map",
+    "index.html": "/artigo-github-pages/index.html",
+    "precache-manifest.af876e625608e36d9855b8b8d05ea4ad.js": "/artigo-github-pages/precache-manifest.af876e625608e36d9855b8b8d05ea4ad.js",
+    "service-worker.js": "/artigo-github-pages/service-worker.js",
+    "static/css/main.d9403351.chunk.css.map": "/artigo-github-pages/static/css/main.d9403351.chunk.css.map",
+    "static/js/2.922f5058.chunk.js.LICENSE.txt": "/artigo-github-pages/static/js/2.922f5058.chunk.js.LICENSE.txt",
+    "static/media/me.jpg": "/artigo-github-pages/static/media/me.d635a7ea.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2b00356.js",
+    "static/js/2.922f5058.chunk.js",
+    "static/css/main.d9403351.chunk.css",
+    "static/js/main.13da866e.chunk.js"
+  ]
+}
