@@ -114,7 +114,12 @@ function App() {
                   <button onClick={handleSubmitArtigo}>Voltar</button>
                 </div>
                 <div className="habilidades" style={mostrarHabilidades}>
-                  <p>Em breve</p>
+                  <div className="habilidade">
+                    <div className="react"><a href="https://reactjs.org">ReactJS</a></div>
+                    <div className="node"><a href="https://nodejs.org/en/">NodeJS</a></div>
+                    <div className="js"><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Javascript</a></div>
+                    <div className="css"><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a></div>
+                  </div>
                   <button onClick={handleSubmitHabilidade}>Voltar</button>
                 </div>
               </div>

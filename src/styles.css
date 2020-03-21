@@ -20,6 +20,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #ecf0f1;
 }
 
 img {
@@ -158,11 +159,6 @@ button:hover {
   transition: .5s;
 }
 
-/* #conteudo .projects .card:hover .projects-name {
-  top: 0%;
-  transform: translateY(0%);
-} */
-
 #conteudo .projects .card .projects-name ul {
   position: absolute;
   top: 50%;
@@ -178,7 +174,6 @@ button:hover {
 
 #conteudo .projects .card .projects-conteudo {
   position: absolute;
-  /* bottom: 0; */
   display: grid;
   align-items: center;
   width: 100%;
@@ -188,12 +183,42 @@ button:hover {
   z-index: 10;
 }
 
-#conteudo .projects .card .projects-conteudo a {
+#conteudo .projects .card .projects-conteudo {
   color: #ecf0f1;
 }
 
 #conteudo .projects .card .projects-conteudo .repositorios ul li {
   margin: 5px;
+}
+
+.habilidade {
+  margin: 10px;
+}
+
+.habilidade div {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.habilidade div a {
+  color: #34495e;
+}
+
+.habilidade .react {
+  background-color: #00d8ff;
+}
+
+.habilidade .node {
+  background-color: #44883e;
+}
+
+.habilidade .js {
+  background-color: #f7df1e;
+}
+
+.habilidade .css {
+  background-color: #03a9f4;
 }
 
 /* ####### FOOTER ####### */
@@ -220,11 +245,4 @@ button:hover {
 
 #footer div { 
   display: inline-block;
-}
-
-@media screen and (min-width: 680px) {
-  #conteudo {
-    /* grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr; */
-  }
 }
